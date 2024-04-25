@@ -6,6 +6,7 @@ body {
 
 p {
   font-size: 18px;
+  display: block;
 }
 
 #container {
