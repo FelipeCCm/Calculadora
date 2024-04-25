@@ -1,0 +1,43 @@
+body {
+  font-family: Arial;
+  background-color: rgb(25, 25, 25);
+  color: white;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 auto;
+  width: 200px;
+}
+
+.title {
+  font-weight: bold;
+  background-color: rgb(0,191,255);
+  display: inline;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.calc-btn {
+  display: block;
+  margin-top: 16px;
+  background-color: rgb(0,191,255);
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+.calc-btn:hover {
+  background-color: rgb(30,144,255);
+}
+
+input {
+  padding: 5px;
+  font-size: 15px;
+  outline: none;
+}
