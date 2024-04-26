@@ -20,7 +20,8 @@
     <p>
       Peso
     </p>
-    <input type="number" placeholder="Quilos" class="js-peso-input">
+    <input type="number" placeholder="Quilos" class="js-peso-input" 
+    onkeydown="enterKeyDown(event)">
 
     <button onclick="calcTotal();" class="calc-btn">
       Calcular
